@@ -9,7 +9,7 @@ export default function SlpashScreen({ navigation }) {
 
 const afterSplashScreen = (isFisrtLaunch) => {
     setTimeout(() => {
-        isFisrtLaunch ? navigation.replace("AuthOptions") : navigation.replace("HomeScreen")
+        isFisrtLaunch ? navigation.replace("AuthOptions") : navigation.replace("MainStack")
     }, 2000)
 }
     const checkFirstLaunch = async () => {

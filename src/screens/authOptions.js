@@ -6,7 +6,7 @@ export default function AuthenticationOptionScreen({navigation}) {
         <View style={{ flex: 2, backgroundColor: "#fff" }}>
             <View style={{ flex: 1 }}>
                 <View style={{ flexDirection: "row", justifyContent: "flex-end", paddingTop: 30 }}>
-                    <CsButton name={"skip"} textColor="#999" color="#fff" onClick={()=>navigation.replace('HomeScreen')}/>
+                    <CsButton name={"skip"} textColor="#999" color="#fff" onClick={()=>navigation.replace('MainStack')}/>
                 </View>
 
                 <Image source={require("../assets/userLoginImage.jpg")} style={{ width: '100%', height: '100%' }} />
